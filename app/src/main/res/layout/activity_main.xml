@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/firback"
+    tools:context="com.example.swapnil.ruralapp.MainActivity">
+
+    <ImageButton
+
+        android:background="@drawable/image_button_styles"
+        android:padding="8dp"
+        android:id="@+id/imageButton3"
+        android:layout_width="174dp"
+        android:layout_height="163dp"
+        android:onClick="WheatherMethod"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/weather"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="64dp"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:padding="8dp"
+        android:background="@drawable/image_button_styles"
+        android:layout_width="172dp"
+        android:layout_height="159dp"
+        android:layout_marginRight="10px"
+        android:onClick="GrantMethod"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/govtgrant"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="64dp"
+        android:layout_alignTop="@+id/imageButton6"
+        android:layout_alignStart="@+id/imageButton5" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:padding="8dp"
+        android:background="@drawable/image_button_styles"
+        android:layout_width="174dp"
+        android:layout_height="155dp"
+        android:onClick="GovernPro"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/govtprograme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="236dp"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/imageButton3" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:padding="8dp"
+        android:background="@drawable/image_button_styles"
+        android:layout_width="173dp"
+        android:layout_height="156dp"
+        android:onClick="YardMethod"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/farmeryard"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="236dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:padding="8dp"
+        android:background="@drawable/image_button_styles"
+        android:layout_width="364dp"
+        android:layout_height="120dp"
+        android:onClick="ElectricMethod"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/elect"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="409dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/imageButton4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView11"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton4"
+        android:layout_alignStart="@+id/imageButton4"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="30dp"
+        android:text="GRANTS" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/imageButton7" />
+
+</RelativeLayout>

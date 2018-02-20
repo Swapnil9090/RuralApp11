@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "57840088466",
+    "firebase_url": "https://ruralapp-17222.firebaseio.com",
+    "project_id": "ruralapp-17222",
+    "storage_bucket": "ruralapp-17222.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57840088466:android:f369c3ddcfc2da8b",
+        "android_client_info": {
+          "package_name": "com.example.swapnil.ruralapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57840088466-011g9d0cgdlc7b79phh08qg5btm5dun7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swapnil.ruralapp",
+            "certificate_hash": "e88cffcfcea9a4550448421d2f7e43ae0a76db84"
+          }
+        },
+        {
+          "client_id": "57840088466-r3h69t9lmg1bl1cs4s2e8a4g0l889hrl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZix4M51RulG5N54EbiH7a_SXzkHFQZXs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57840088466-r3h69t9lmg1bl1cs4s2e8a4g0l889hrl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

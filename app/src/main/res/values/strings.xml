@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Rural App</string>
+    <color name="grey">#d3d3d3</color>
+    <color name="red">#ff0000</color>
+    <string name="spinner_title">Select Category</string>
+</resources>
